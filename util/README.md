@@ -30,3 +30,90 @@ diff:      1 day(s)
 
 ```
 
+### clock1
+
+```shell
+
+clock1
+system_clock: 
+- precision: 0.000001 milliseconds
+- is_steady: false
+
+high_resolution_clock: 
+- precision: 0.000001 milliseconds
+- is_steady: false
+
+steady_clock: 
+- precision: 0.000001 milliseconds
+- is_steady: true
+
+```
+
+### enableshared1
+
+```shell
+
+enableshared1
+nico's family exists
+- nico is shared 1 times
+- name of 1st kid of nico's mom: nico
+delete nico
+delete nico's dad
+delete nico's mom
+jim's family exists
+delete jim
+delete jim's dad
+delete jim's mom
+
+```
+
+### limits1
+
+```shell
+
+limits1
+max(short): 32767
+max(int):   2147483647
+max(long):  9223372036854775807
+
+max(float):       3.40282e+38
+max(double):      1.79769e+308
+max(long double): 1.18973e+4932
+
+is_signed(char): true
+
+is_specialized(string): false
+
+```
+
+### minmax1
+
+```shell
+
+
+
+```
+
+### pair1
+
+```shell
+
+pair1
+Foo::Foo(tuple)
+Foo::Foo(args...)
+
+```
+
+### ratio1
+
+
+```shell
+
+ratio1
+5/3
+5/3
+1/1
+0/1
+-7/3
+
+```
