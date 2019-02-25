@@ -2,6 +2,15 @@
 
 ## util
 
+- chrono1
+- chrono2
+- clock1
+- enableshared1
+- sharedptr1
+- timepoint1
+- uniqueptr1
+- weakptr2
+
 ### chrono1
 
 
@@ -115,5 +124,118 @@ ratio1
 1/1
 0/1
 -7/3
+
+```
+
+### sharedptr1
+
+```shell
+
+sharedptr1
+Jutta  Jutta  Nico  Jutta  Nico  
+Jutta  Jutta  Nicolai  Jutta  Nicolai  
+use_count: 4
+
+```
+
+### sharedptr2
+此项目的作用是： 删除`tmpfile.txt`文件
+
+### sharedptr3
+
+```shell
+
+util/sharedptr3.cpp:34：对‘shm_open’未定义的引用
+util/sharedptr3.cpp.o：在函数‘SharedMemoryDetacher::operator()(int*)’中：
+util/sharedptr3.cpp:25：对‘shm_unlink’未定义的引用
+
+```
+
+### timepoint1
+
+```shell
+
+timepoint1
+Fri Jan  1 00:00:00 2010
+Mon May 23 13:44:00 2011
+
+```
+
+### tuple1
+
+```shell
+
+tuple1
+41 6.3 nico
+
+```
+
+### tuple2
+
+```shell
+
+tuple2
+io: [77,1.1,more light]
+
+```
+
+### uniqueptr1
+
+```shell
+
+uniqueptr1
+process util_timepoint1
+process util_pair1
+process cmake_install.cmake
+process util_ratio1
+process util_tuple2
+process Makefile
+process CMakeCache.txt
+process util_tuple1
+process util_sharedptr2
+process cppstdlib
+process .
+process util_enableshared1
+process util_limits1
+process util_sharedptr1
+process util_uniqueptr1
+process cppstdlib.cbp
+process ..
+process util_chrono2
+process CMakeFiles
+process util_minmax1
+process util_sharedptr3
+process util_clock1
+
+```
+
+### weakptr1
+
+
+```shell
+
+weakptr1
+nico's family exists
+- nico is shared 3 times
+- name of 1st kid of nico's mom: nico
+jim's family exists
+
+```
+
+### weakptr2
+
+```shell
+
+weakptr2
+nico's family exists
+- nico is shared 1 times
+- name of 1st kid of nico's mom: nico
+delete nico
+delete nico's dad
+delete nico's mom
+jim's family exists
+delete jim
+delete jim's dad
+delete jim's mom
 
 ```

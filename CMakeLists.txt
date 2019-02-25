@@ -3,11 +3,58 @@ project(cppstdlib)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(util_chrono1 util/chrono1.cpp)
-add_executable(util_chrono2 util/chrono2.cpp)
-add_executable(util_clock1 util/clock1.cpp)
-add_executable(util_enableshared1 util/enableshared1.cpp)
-add_executable(util_limits1 util/limits1.cpp)
-add_executable(util_minmax1 util/minmax1.cpp)
-add_executable(util_pair1 util/pair1.cpp)
-add_executable(util_ratio1 util/ratio1.cpp)
+#FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib NO_DEFAULT_PATH)
+
+
+
+
+#add_executable(add1 stl/add1.cpp)
+#add_executable(algo1 stl/algo1.cpp)
+#add_executable(algo1old stl/algo1old.cpp)
+#add_executable(array1 stl/array1.cpp)
+#add_executable(assoarray1 stl/assoarray1.cpp)
+#add_executable(bind1 stl/bind1.cpp)
+#add_executable(copy1 stl/copy1.cpp)
+#add_executable(copy2 stl/copy2.cpp)
+#add_executable(copybug stl/copybug.cpp)
+#add_executable(deque1 stl/deque1.cpp)
+#add_executable(find1 stl/find1.cpp)
+#add_executable(foreach1 stl/foreach1.cpp)
+#add_executable(foreach2 stl/foreach2.cpp)
+#add_executable(forwardlist1 stl/forwardlist1.cpp)
+add_executable(ioiter1 stl/ioiter1.cpp)
+
+
+#add_executable(string_icstring1 string/icstring1.cpp)
+#add_executable(string_string1 string/string1.cpp)
+#add_executable(string_string2 string/string2.cpp)
+#add_executable(string_string3 string/string3.cpp)
+#add_executable(stringiter1 string/stringiter1.cpp)
+#add_executable(stringiter2 string/stringiter2.cpp)
+#add_executable(stringnumconv1 string/stringnumconv1.cpp)
+
+
+
+#add_executable(util_chrono1 util/chrono1.cpp)
+#add_executable(util_chrono2 util/chrono2.cpp)
+#add_executable(util_clock1 util/clock1.cpp)
+#add_executable(util_enableshared1 util/enableshared1.cpp)
+#add_executable(util_limits1 util/limits1.cpp)
+#add_executable(util_minmax1 util/minmax1.cpp)
+#add_executable(util_pair1 util/pair1.cpp)
+#add_executable(util_ratio1 util/ratio1.cpp)
+#add_executable(util_sharedptr1 util/sharedptr1.cpp)
+#add_executable(util_sharedptr2 util/sharedptr2.cpp)
+#add_executable(util_sharedptr3 util/sharedptr3.cpp)
+#add_executable(util_timepoint1 util/timepoint1.cpp)
+#add_executable(util_tuple1 util/tuple1.cpp)
+#add_executable(util_tuple2 util/tuple2.cpp)
+#add_executable(util_uniqueptr1 util/uniqueptr1.cpp)
+#add_executable(util_weakptr1 util/weakptr1.cpp)
+#add_executable(util_weakptr2 util/weakptr2.cpp)
+
+#target_link_libraries(util_sharedptr3 rt)
+#target_link_libraries(util_sharedptr3 libshared.a libboost_thread.a libboost_chrono.a libboost_system.a pthread dl rt)
+
+
+
