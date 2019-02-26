@@ -2,8 +2,11 @@
 
 [C++标准库（第2版）豆瓣链接](https://book.douban.com/subject/26419721/)
 
-gcc -lrt test.c -o测试
-gcc test.c -o test -lrt
+`gcc -lrt test.c -o`
+测试
+
+`gcc test.c -o test -lrt`
+
 cmake如何添加
 
 [cmake 添加头文件目录，链接动态、静态库](https://www.cnblogs.com/binbinjx/p/5626916.html)

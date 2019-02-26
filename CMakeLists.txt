@@ -5,8 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib NO_DEFAULT_PATH)
 
-
-
+add_executable(lambda1 lang/lambda1.cpp)
 
 #add_executable(add1 stl/add1.cpp)
 #add_executable(algo1 stl/algo1.cpp)
@@ -22,8 +21,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(foreach1 stl/foreach1.cpp)
 #add_executable(foreach2 stl/foreach2.cpp)
 #add_executable(forwardlist1 stl/forwardlist1.cpp)
-add_executable(ioiter1 stl/ioiter1.cpp)
-
+#add_executable(ioiter1 stl/ioiter1.cpp)
 
 #add_executable(string_icstring1 string/icstring1.cpp)
 #add_executable(string_string1 string/string1.cpp)
@@ -32,8 +30,6 @@ add_executable(ioiter1 stl/ioiter1.cpp)
 #add_executable(stringiter1 string/stringiter1.cpp)
 #add_executable(stringiter2 string/stringiter2.cpp)
 #add_executable(stringnumconv1 string/stringnumconv1.cpp)
-
-
 
 #add_executable(util_chrono1 util/chrono1.cpp)
 #add_executable(util_chrono2 util/chrono2.cpp)
@@ -54,7 +50,6 @@ add_executable(ioiter1 stl/ioiter1.cpp)
 #add_executable(util_weakptr2 util/weakptr2.cpp)
 
 #target_link_libraries(util_sharedptr3 rt)
+
 #target_link_libraries(util_sharedptr3 libshared.a libboost_thread.a libboost_chrono.a libboost_system.a pthread dl rt)
-
-
 
