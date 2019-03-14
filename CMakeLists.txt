@@ -5,7 +5,19 @@ set(CMAKE_CXX_STANDARD 11)
 
 #FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib NO_DEFAULT_PATH)
 
-add_executable(lambda1 lang/lambda1.cpp)
+add_executable(advance1 iter/advance1.cpp)
+add_executable(advance2 iter/advance2.cpp)
+add_executable(assoiter1 iter/assoiter1.cpp)
+add_executable(backinserter1 iter/backinserter1.cpp)
+add_executable(distance1 iter/distance1.cpp)
+add_executable(frontinserter1 iter/frontinserter1.cpp)
+add_executable(inserter1 iter/inserter1.cpp)
+add_executable(istreamiter1 iter/istreamiter1.cpp)
+add_executable(itercategory1 iter/itercategory1.cpp)
+add_executable(iterswap1 iter/iterswap1.cpp)
+add_executable(ostreamiter1 iter/ostreamiter1.cpp)
+
+#add_executable(lambda1 lang/lambda1.cpp)
 
 #add_executable(add1 stl/add1.cpp)
 #add_executable(algo1 stl/algo1.cpp)
