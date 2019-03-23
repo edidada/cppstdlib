@@ -17,3 +17,6 @@ cmake如何添加
 不知道dl和rt表示什么意思，网上搜索了半天，就查找dl表示动态链接库，rt表示real time，生成程序是需要libnet.so,libdatabase.so等，但是target_link_libraries都没写出来，我就想问下dl是不是就是表示链接link_directories里面所有的.so动态链接库文件，那rt又是代表什么具体含义
 dl是libdl.so,rt是librt.so的缩写，其实是静态加载了这两个动态链接库
 
+
+### head file
+.hpp格式的头文件
