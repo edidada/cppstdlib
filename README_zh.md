@@ -26,3 +26,12 @@ dl是libdl.so,rt是librt.so的缩写，其实是静态加载了这两个动态�
 vector
 - insert
 - end
+
+```c++
+template <typename T>
+inline
+```
+
+inline
+http://www.cplusplus.com/articles/2LywvCM9/
+
