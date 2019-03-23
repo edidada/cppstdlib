@@ -20,3 +20,9 @@ dl是libdl.so,rt是librt.so的缩写，其实是静态加载了这两个动态�
 
 ### head file
 .hpp格式的头文件
+
+### vector
+
+vector
+- insert
+- end
