@@ -21,7 +21,7 @@ int main()
     // process sum of elements
     cout << "sum: "
          << accumulate (coll.cbegin(), coll.cend(),  // range
-                        0)                           // initial value
+                        1)                           // initial value
          << endl;
 
     // process sum of elements less 100
