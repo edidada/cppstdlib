@@ -37,3 +37,4 @@ http://www.cplusplus.com/articles/2LywvCM9/
 
 [cpp reference accumulate](https://en.cppreference.com/w/cpp/algorithm/accumulate)
 
+[adjacent_difference C++ 使用](https://blog.csdn.net/zhangxiao93/article/details/75822424)
