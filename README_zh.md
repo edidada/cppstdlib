@@ -5,6 +5,26 @@
 - linux system call
 - posix c
 
+```shell
+wdidada@wdidada-E550:/usr/include/c++/9$ ls
+algorithm  cinttypes           cstdio        fenv.h            map              scoped_allocator  typeindex
+any        ciso646             cstdlib       filesystem        math.h           set               typeinfo
+array      climits             cstring       forward_list      memory           shared_mutex      type_traits
+atomic     clocale             ctgmath       fstream           memory_resource  sstream           unordered_map
+backward   cmath               ctime         functional        mutex            stack             unordered_set
+bit        codecvt             cuchar        future            new              stdexcept         utility
+bits       complex             cwchar        initializer_list  numeric          stdlib.h          valarray
+bitset     complex.h           cwctype       iomanip           optional         streambuf         variant
+cassert    condition_variable  cxxabi.h      ios               ostream          string            vector
+ccomplex   csetjmp             debug         iosfwd            parallel         string_view       version
+cctype     csignal             decimal       iostream          profile          system_error
+cerrno     cstdalign           deque         istream           pstl             tgmath.h
+cfenv      cstdarg             exception     iterator          queue            thread
+cfloat     cstdbool            execution     limits            random           tr1
+charconv   cstddef             experimental  list              ratio            tr2
+chrono     cstdint             ext           locale            regex            tuple
+```
+
 [C++标准库（第2版）豆瓣链接](https://book.douban.com/subject/26419721/)
 
 `gcc -lrt test.c -o`
