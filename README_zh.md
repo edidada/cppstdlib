@@ -5,6 +5,9 @@
 - linux system call
 - posix c
 
+记忆c api，先记忆头文件
+
+c++头文件
 ```shell
 wdidada@wdidada-E550:/usr/include/c++/9$ ls
 algorithm  cinttypes           cstdio        fenv.h            map              scoped_allocator  typeindex
