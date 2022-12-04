@@ -32,7 +32,7 @@ template <typename T>
 inline
 ```
 
-inline
+inline express
 http://www.cplusplus.com/articles/2LywvCM9/
 
 [cpp reference accumulate](https://en.cppreference.com/w/cpp/algorithm/accumulate)
