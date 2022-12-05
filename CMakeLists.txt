@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
-project(cppstdlib)
+project(cppstdlib VERSION 1.0.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 #FIND_LIBRARY(RUNTIME_LIB rt /usr/lib  /usr/local/lib NO_DEFAULT_PATH)
 
